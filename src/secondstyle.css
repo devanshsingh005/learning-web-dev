@@ -1,0 +1,230 @@
+html {
+    font-size: 16px;
+    /* background-color: green; */
+    /* color: rgba(20,20,20,0.5); */
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: 500; */
+    /* text-align: justify; */
+    /* text-transform: uppercase; */
+    /* font-size: 0.2in; */
+    font-size: 1rem;
+    color: #444444;
+
+
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600px;
+
+    color: #222222;
+}
+
+h1 {
+    text-align: center;
+    color: darkcyan;
+    font-size: 2.5rem;
+
+}
+
+#banner {
+    width: 100%;
+}
+
+#jobtable {
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+
+}
+
+#tablerow th {
+    border: 1px solid gray;
+    padding: 4px;
+    background-color: #BFDBFE;
+    text-align: center;
+    color: #222222;
+}
+
+#tablerow td {
+    border: 1px solid gray;
+    padding: 4px;
+}
+
+#jobtable tr:nth-child(odd) {
+    background-color: #EFF6FF
+}
+
+#navbar {
+    padding: 10px;
+
+}
+
+#logo {
+    height: 50px;
+    margin: 0;
+}
+
+#banner {
+    object-fit: cover;
+}
+
+#about {
+
+    display: flex;
+    max-width: 700px;
+
+    margin: 0 auto;
+}
+
+#descripiton {
+
+    padding: 8px;
+    /* line-height: 1.4; */
+    font-size: 1.1rem;
+
+}
+
+#team image {
+    width: 50%;
+    height: 100%;
+    box-shadow: none;
+
+}
+
+#image {
+
+    width: 100%;
+    border-radius: 10px;
+    /* border-width: 3px;
+    border-style: dotted;
+    border-color: black; */
+
+
+}
+
+h2 {
+    text-align: center;
+}
+
+#jobs {
+
+    max-width: 700px;
+
+    margin: 0 auto;
+    padding: 8px;
+}
+
+.jobrole {
+    margin-bottom: 4px;
+    margin-top: 0px;
+}
+
+#jobopp {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.apply {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: #4F46E5;
+
+
+}
+
+/* when you want the color of the link to change while hovering */
+a:hover,
+a:focus {
+    color: #60A5FA;
+}
+
+#footer {
+    background-color: rgba(128, 128, 128, 0.17);
+    padding: 8px;
+    margin-top: 20px;
+
+}
+
+.footerlinks {
+    list-style: none;
+    text-align: center;
+
+
+}
+
+.footerlinks li {
+    display: inline;
+    margin: 0 50px;
+
+
+}
+
+#last {
+    text-align: center;
+    color: grey;
+    font-size: 0.8rem;
+    color: #525252;
+}
+
+#application {
+    max-width: 700px;
+    padding: 0 8px;
+    margin: 0 auto;
+}
+
+#applicationform label {
+    font-weight: 700;
+
+
+}
+
+#applicationform input,
+select,
+textarea {
+    padding: 8px;
+    font-size: 1.1rem;
+    margin-top: 4px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+
+}
+
+.formgroup {
+    margin: 4px 0;
+
+}
+
+.formgroup textarea {
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.formgroup input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+
+}
+
+.formgroup input[type="submit"] {
+    background-color:#A5B4FC;
+    font-weight: 500px;
+    padding: 8px;
+    cursor: pointer;
+}
+ .formgroup:hover input[type="submit"]{
+  background-color:#BAE6FD;
+ }

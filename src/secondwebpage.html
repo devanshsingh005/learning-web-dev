@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        First Web page
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="secondstyle.css">
+
+</head>
+
+<body>
+
+    <div id="navbar">
+        <img id="logo" src="https://purple.ai/wp-content/uploads/2023/06/wavelink-logo-for-blogheader-3.jpg" alt="logo">
+    </div>
+
+    <img id="banner" src="banner.jpg" alt="Banner" height="300" width="450">
+
+    <h1> About WaveLink</h1>
+    <div id="about">
+        <div id="descripiton">
+            <p style="margin-top: 0px;">
+                WaveLink is a cutting-edge technology company specializing in innovative
+                smart wearables that seamlessly integrate advanced features like smartwatches
+                and speakers. Our products redefine convenience and style, providing a harmonious
+                blend of technology and fashion for a connected lifestyle.
+            </p>
+            <span>
+                We also offer 2 industry focused Program:
+            </span>
+            <ol>
+                <li>
+                    <a href="https://www.udemy.com/topic/full-stack-web-development/" target="_blank">Full stack
+                        developer
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.udemy.com/topic/data-science/" target="_blank">Data science development
+                    </a>
+                </li>
+            </ol>
+        </div>
+
+        <div id="team image">
+            <img id="image" src="team.jpg" alt="team">
+        </div>
+    </div>
+
+
+    <h2 id="jobopp"> Job Opportunities</h2>
+    <div id="jobs">
+        <table id="jobtable">
+            <tr id="tablerow">
+                <th rowspan="2">Job Title</th>
+                <th colspan="2">Location</th>
+                <th rowspan="2">Salary</th>
+                <th rowspan="2">Posted On</th>
+            </tr>
+            <tr id="tablerow">
+                <th>City</th>
+                <th>Country</th>
+            </tr>
+            <tr id="tablerow">
+                <td>Frontend developer</td>
+                <td>Bengaluru </td>
+                <td>India</td>
+                <td>$120000</td>
+                <td>Mar 3, 2023</td>
+            </tr>
+            <tr id="tablerow">
+                <td>Full-stack-web-development</td>
+                <td>New Delhi </td>
+                <td>India</td>
+                <td>$100000</td>
+                <td>Jan 4, 2023</td>
+            </tr>
+            <tr id="tablerow">
+                <td>Data Scientist</td>
+                <td>San Francisco</td>
+                <td>USA
+                </td>
+                <td>$150000</td>
+                <td>April 30, 2023</td>
+            </tr>
+            <tr id="tablerow">
+                <td>ML Engineer</td>
+                <td colspan="2" style="text-align: center;">Remote</td>
+                <td>$170000</td>
+                <td>Feb 4, 2023</td>
+            </tr>
+
+        </table>
+    </div>
+
+    <div id="application">
+        <h2>Submit Your Application</h2>
+
+        <form id="applicationform" action="https://formbold.com/s/oY1Az" method="POST">
+            <div class="formgroup">
+                <label for="name">Full Name</label><br>
+                <input type="text" id="name" name="Full Name" required placeholder="John Sahab">
+
+            </div>
+            <div class="formgroup">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="Email ID" required placeholder="john23@example.com">
+
+            </div>
+            <div class="formgroup">
+                <label for="phone">Phone Number</label><br>
+                <input type="tel" id="phone" name="Phone Number" required placeholder="+918081602062">
+
+            </div>
+            <div class="formgroup">
+                <label for="dob">Date of Birth </label><br>
+                <input type="date" id="dob" name="dob" required placeholder="01/12/2023">
+
+            </div>
+            <div class="formgroup">
+                <label for="position">Position Applied For</label><br>
+                <select id="postion" name="postion applied" required>
+                    <option value="">Select Position</option>
+                    <option value="frontend">Frontend Developer</option>
+                    <option value="full stack Developer">Full Stack Developer</option>
+                    <option value="data Scientist">Data Scientist</option>
+                    <option value="ML Engineer">ML Engineer</option>
+                </select>
+            </div>
+            <div class="formgroup">
+                <label for="resume">Upload Resume</label><br>
+                <input type="file" name="resume" id="resume" accept=".pdf,.doc,.docx" required>
+            </div>
+            <div class="formgroup">
+                <label for="coverletter"> Cover Letter</label><br>
+                <textarea name="coverletter" id="coverletter" cols="30" rows="5"
+                    placeholder="Explain what makes you subitable for the job"></textarea>
+            </div>
+            <!-- <div class="formgroup">
+                <label for="resume">Upload Resume</label><br>
+                <input type="file" name="resume" id="resume" accept=".pdf,.doc,.docx" required>
+            </div> -->
+            <div class="formgroup">
+                <label for="terms">
+                    <input type="checkbox" name="terms" id="terms">I agree to the terms and conditions
+                </label>
+            </div>
+            <div class="formgroup">
+                <input type="submit" value="Submit Application">
+            </div>
+        </form>
+
+    </div>
+
+    <div id="footer">
+        <ul class="footerlinks">
+            <li>
+                <a href="https://www.instagram.com/" target="_blank">
+                    Course
+                </a>
+            </li>
+            <li>
+                <a href="https://chat.openai.com/c/17812ee3-431f-4b23-9857-424b9fe47c47" target="_blank">
+                    Program
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=dX8396ZmSPk&t=2967s" target="_blank">
+                    YouTube
+                </a>
+            </li>
+        </ul>
+
+        <div id="last">© 2023 WaveLink </div>
+    </div>
+
+
+</body>
+
+</html>
